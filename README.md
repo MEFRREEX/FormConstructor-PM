@@ -57,10 +57,10 @@ $form = new ModalForm("Test modal form");
 $form->addContent("New content line");
 
 $form->setPositiveButton("Positive button")
-    ->setNegativeButton("Negative button");
+     ->setNegativeButton("Negative button");
 
 // Setting the form handler
-// Result returns true if a positive button was ckicked and false if a negative button was ckicked
+// Result returns true if a positive button was clicked and false if a negative button was clicked
 $form->setHandler(function (Player $pl, bool $result) {
     $pl->sendMessage("You clicked " . ($result ? "correct" : "wrong") . " button!");
 });
