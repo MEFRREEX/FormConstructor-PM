@@ -1,14 +1,6 @@
 name: FormConstructor
-main: com\formconstructor\FormConstructor
 version: 1.0.0
 api: 5.0.0
 author: MEFRREEX
-
-commands:
-  test:
-    description: "Test"
-    permission: "test.test"
-
-permissions:
-  test.test:
-    default: "op"
+description: Library for easy creating and handling of forms
+main: com\formconstructor\FormConstructor
