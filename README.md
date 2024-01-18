@@ -115,6 +115,8 @@ $form->setHandler(function (Player $pl, CustomFormResponse $response) {
 $form->send($sender);
 ```
 
+Download Example plugin: https://github.com/MEFRREEX/FormConstructor-PM-Example
+
 📋 Events
 -------------
 | Name                 | Cancellable | Description                      |
