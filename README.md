@@ -68,7 +68,7 @@ $form->setHandler(function (Player $pl, bool $result) {
 // Setting the form close handler
 $form->setCloseHandler(fn(Player $pl) => $pl->sendMessage("You closed the form!"));
 
-$form->send($sender);
+$form->send($player);
 ```
 
 Creating a CustomForm:
@@ -112,7 +112,7 @@ $form->setHandler(function (Player $pl, CustomFormResponse $response) {
     $pl->sendMessage("Second dropdown value: " . $dropdownValue);
 });
 
-$form->send($sender);
+$form->send($player);
 ```
 
 Download Example plugin: https://github.com/MEFRREEX/FormConstructor-PM-Example
